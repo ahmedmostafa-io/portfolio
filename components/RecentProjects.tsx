@@ -32,7 +32,7 @@ const RecentProjects = () => {
                   } w-full h-full`}
                 />
               </div>
-              <h2 className="lg:text-2xl font-bold md-text-xl text-base line-clamp-1">
+              <h2 className="lg:text-2xl text-white font-bold md-text-xl text-base line-clamp-1">
                 {title}
               </h2>
               <p className="text-sm lg:text-xl lg:font-normal  text-[#c1c2d3] font-light line-clamp-2 mt-2">

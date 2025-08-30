@@ -26,7 +26,7 @@ const Opinions = () => {
             {companies.map(({ id, name, img, nameImg }) => (
               <div key={id} className="flex gap-0 md:max-w-44  max-w-32 ">
                 <img src={img} alt={name} className="md:w-10 w-5" />
-                <p className="md:w-24 w-20">{nameImg}</p>
+                <p className="md:w-24 w-20 text-white">{nameImg}</p>
               </div>
             ))}
           </div>
