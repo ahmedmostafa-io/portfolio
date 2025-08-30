@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ahmed Mostafa - Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website!  
+Built with _Next.js 15, TypeScript, and Tailwind CSS, it showcases my projects, skills, and journey as a \*\*Frontend Developer_.
 
-First, run the development server:
+---
+
+## 🔗 Live Demo
+
+👉 [ahmedmostafa-portfolio.vercel.app](https://ahmedmostafa-portfolio.vercel.app)
+
+---
+
+## 🖼 Preview
+
+![Portfolio Screenshot](./public/preview.png)
+
+---
+
+## ✨ Features
+
+- ⚡ _Modern UI_ with Tailwind CSS & shadcn/ui components
+- 🎨 Smooth animations powered by Framer Motion
+- 📂 Projects section with _live demos & GitHub links_
+- 📱 Fully responsive design for all devices
+- 📬 Contact form with validation & email integration
+
+---
+
+## 📂 Projects Highlighted in Portfolio
+
+- _Redux Bank Project_ → Advanced state management with Redux Toolkit
+- _AI SaaS (In Progress)_ → AI Interviews, Resume Reviews, Technical Questions
+- _E-commerce App_ → Next.js + TypeScript + RTK Query (Login, Cart, Orders, Checkout)
+
+---
+
+## ⚡ Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-black?style=flat)
+
+---
+
+## 🚀 Run Locally
+
+Clone the project:
 
 ```bash
+git clone https://github.com/ahmedmostafa-io/ahmedmostafa-portfolio.git
+cd ahmedmostafa-portfolio
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+---
+
+📬 Contact
+
+Email: ahmedmostafa.codes@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/ahmed-mostafa-582378373/
+
+GitHub: github.com/ahmedmostafa-io
+
+
+
+---
+
+✨ Crafted with passion by Ahmed Mostafa Ahmed Abdel-Aal
+
+---
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
