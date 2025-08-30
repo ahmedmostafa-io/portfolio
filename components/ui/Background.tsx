@@ -6,7 +6,7 @@ export function GridBackgroundDemo({
   children: React.ReactNode;
 }) {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black/[0.02]">
+    <div className="relative flex h-screen w-full items-center justify-center bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black/[0.02]">
       <div
         className={cn(
           "absolute inset-0",
