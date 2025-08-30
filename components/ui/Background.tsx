@@ -6,13 +6,12 @@ export function GridBackgroundDemo({
   children: React.ReactNode;
 }) {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black/[0.02]">
+    <div className="relative flex h-screen w-full items-center justify-center bg-black-100 bg-grid-white/[0.03] ">
       <div
         className={cn(
           "absolute inset-0",
           "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
+          "[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
         )}
       />
       {/* Radial gradient for the container to give a faded look */}
